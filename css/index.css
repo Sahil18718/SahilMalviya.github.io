@@ -52,7 +52,7 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--second-color);
-    background-color: rgb(247, 197, 206);
+    /* background-color: rgb(247, 197, 206); */
 }
 
 h1,
@@ -251,14 +251,17 @@ img {
     right: 0;
     bottom: 0;
     width: 260px;
+    border: 2px solid blue;
 }
 
 .home__blob {
     fill: var(--first-color);
+    border: 2px solid red;
 }
 
 .home__blob-img {
     width: 360px;
+    border: 2px solid blue;
 }
 
 /*BUTTONS*/
