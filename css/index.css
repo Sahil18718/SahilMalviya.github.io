@@ -261,7 +261,7 @@ img {
 }
 
 .home__blob-img {
-    /* width: 360px; */
+    width: 360px;
     
     /* border: 2px solid blue; */
 }
@@ -321,13 +321,15 @@ img {
 .skills__data {
     display: flex;
     justify-content: space-between;
+    width: 70%;
+    background-color: #fff;
     align-items: center;
     position: relative;
     font-weight: var(--font-semi);
     padding: .5rem 1rem;
     margin-bottom: var(--mb-4);
     border-radius: .5rem;
-    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+    box-shadow: 0px 4px 25px rgba(3, 9, 12, 0.952);
 }
 
 .skills-card-img {
@@ -347,6 +349,7 @@ img {
     left: 0;
     bottom: 0;
     background-color: var(--first-color);
+    width: 10%;
     height: .25rem;
     border-radius: .5rem;
     z-index: var(--z-back);
@@ -369,7 +372,7 @@ img {
 }
 
 .skills__img {
-    border-radius: .5rem;
+    border-radius: .6rem;
 }
 
 /* ===== WORK =====*/
