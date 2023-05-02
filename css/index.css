@@ -52,7 +52,8 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--second-color);
-    /* background-color: rgb(247, 197, 206); */
+    background-color: rgb(249, 238, 240);
+
 }
 
 h1,
@@ -118,7 +119,7 @@ img {
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: #fff;
+    background-color: rgb(249, 213, 220);
     box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -251,17 +252,18 @@ img {
     right: 0;
     bottom: 0;
     width: 260px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .home__blob {
     fill: var(--first-color);
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .home__blob-img {
-    width: 360px;
-    border: 2px solid blue;
+    /* width: 360px; */
+    
+    /* border: 2px solid blue; */
 }
 
 /*BUTTONS*/
