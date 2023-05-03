@@ -181,7 +181,7 @@ img {
 
 .resume_button {
     display: inline-block;
-    background-color: var(--first-color);
+    background-color: rgb(17, 16, 16);
     color: #fff;
     padding: .40rem 1rem;
     font-weight: var(--font-semi);
@@ -191,7 +191,7 @@ img {
 }
 
 .resume_button:hover {
-    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 10px 36px rgba(246, 242, 242, 0.15);
 }
 
 
@@ -239,8 +239,8 @@ img {
 .home__social-icon {
     width: max-content;
     margin-bottom: var(--mb-2);
-    font-size: 1.5rem;
-    color: var(--second-color);
+    font-size: 2.5rem;
+    color:  rgb(17, 16, 16);
 }
 
 .home__social-icon:hover {
@@ -269,7 +269,7 @@ img {
 /*BUTTONS*/
 .button {
     display: inline-block;
-    background-color: var(--first-color);
+    background-color: rgb(17, 16, 16);
     color: #fff;
     padding: .75rem 2.5rem;
     font-weight: var(--font-semi);
@@ -306,12 +306,15 @@ img {
 .skills__container {
     row-gap: 2rem;
     text-align: center;
-    row-gap: 10px;
+    /* row-gap: 5px; */
     padding-top: 50px;
+    border: 2px solid blue;
+    
 }
 
 .skills__subtitle {
     margin-bottom: var(--mb-2);
+    border: 2px solid black;
 }
 
 .skills__text {
@@ -321,21 +324,22 @@ img {
 .skills__data {
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 60%;
     background-color: #fff;
     align-items: center;
     position: relative;
     font-weight: var(--font-semi);
-    padding: .5rem 1rem;
+    padding: .4rem 1rem ;
     margin-bottom: var(--mb-4);
     border-radius: .5rem;
     box-shadow: 0px 4px 25px rgba(3, 9, 12, 0.952);
+    border: 4px solid rgb(250, 37, 73);
 }
 
 .skills-card-img {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-right: var(--mb-2);
-    color: var(--first-color);
+    color:  rgb(17, 16, 16);
 }
 
 .skills__names {
@@ -377,13 +381,16 @@ img {
 
 /* ===== WORK =====*/
 .work__container {
+    display: grid;
     row-gap: 2rem;
+    grid-template-columns: repeat(4, 2fr);
 }
 
 .work__img {
-    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+    box-shadow: 0px 4px 25px rgba(4, 8, 10, 0.977);
     border-radius: .5rem;
     overflow: hidden;
+    background-color:white;
 }
 
 .work__img img {
@@ -448,7 +455,7 @@ img {
 .contact_details{
     /* width: 70%; */
     /* padding: 100px; */
-    font-size: 25px;
+    /* font-size: 23px; */
     /* border: 1px solid green; */
     display: flex;
     flex-direction: column;
@@ -458,7 +465,9 @@ img {
 }
 
 .contact_tag {
-    margin: 10px 0px;
+    margin: 10px 0px ;
+    font-size: 30px;
+    color:black;
 }
 
 /* ===== FOOTER =====*/
