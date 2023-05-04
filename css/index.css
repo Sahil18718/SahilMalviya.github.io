@@ -52,8 +52,6 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--second-color);
-    background-color: rgb(249, 238, 240);
-
 }
 
 h1,
@@ -119,7 +117,7 @@ img {
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: rgb(249, 213, 220);
+    background-color: #fff;
     box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -181,7 +179,7 @@ img {
 
 .resume_button {
     display: inline-block;
-    background-color: rgb(17, 16, 16);
+    background-color: var(--first-color);
     color: #fff;
     padding: .40rem 1rem;
     font-weight: var(--font-semi);
@@ -191,7 +189,7 @@ img {
 }
 
 .resume_button:hover {
-    box-shadow: 0px 10px 36px rgba(246, 242, 242, 0.15);
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -239,8 +237,8 @@ img {
 .home__social-icon {
     width: max-content;
     margin-bottom: var(--mb-2);
-    font-size: 2.5rem;
-    color:  rgb(17, 16, 16);
+    font-size: 1.5rem;
+    color: var(--second-color);
 }
 
 .home__social-icon:hover {
@@ -252,24 +250,20 @@ img {
     right: 0;
     bottom: 0;
     width: 260px;
-    /* border: 2px solid blue; */
 }
 
 .home__blob {
     fill: var(--first-color);
-    /* border: 2px solid red; */
 }
 
 .home__blob-img {
     width: 360px;
-    
-    /* border: 2px solid blue; */
 }
 
 /*BUTTONS*/
 .button {
     display: inline-block;
-    background-color: rgb(17, 16, 16);
+    background-color: var(--first-color);
     color: #fff;
     padding: .75rem 2.5rem;
     font-weight: var(--font-semi);
@@ -293,53 +287,41 @@ img {
     margin-bottom: var(--mb-2);
 }
 
-/* .about__img {
-    justify-self: center;
-  }
-  
-  .about__img img {
-    width: 200px;
-    border-radius: .5rem;
-  } */
+
+
 
 /* ===== SKILLS =====*/
 .skills__container {
     row-gap: 2rem;
     text-align: center;
-    /* row-gap: 5px; */
+    row-gap: 10px;
     padding-top: 50px;
-    border: 2px solid blue;
-    
 }
 
 .skills__subtitle {
     margin-bottom: var(--mb-2);
-    border: 2px solid black;
 }
 
 .skills__text {
     margin-bottom: var(--mb-4);
 }
 
-.skills__data {
+.skills-card {
     display: flex;
     justify-content: space-between;
-    width: 60%;
-    background-color: #fff;
     align-items: center;
     position: relative;
     font-weight: var(--font-semi);
-    padding: .4rem 1rem ;
+    padding: .5rem 1rem;
     margin-bottom: var(--mb-4);
     border-radius: .5rem;
-    box-shadow: 0px 4px 25px rgba(3, 9, 12, 0.952);
-    border: 4px solid rgb(250, 37, 73);
+    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
 }
 
 .skills-card-img {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-right: var(--mb-2);
-    color:  rgb(17, 16, 16);
+    color: var(--first-color);
 }
 
 .skills__names {
@@ -353,7 +335,6 @@ img {
     left: 0;
     bottom: 0;
     background-color: var(--first-color);
-    width: 10%;
     height: .25rem;
     border-radius: .5rem;
     z-index: var(--z-back);
@@ -376,98 +357,58 @@ img {
 }
 
 .skills__img {
-    border-radius: .6rem;
-}
-
-/* ===== WORK =====*/
-.work__container {
-    display: grid;
-    row-gap: 2rem;
-    grid-template-columns: repeat(4, 2fr);
-}
-
-.work__img {
-    box-shadow: 0px 4px 25px rgba(4, 8, 10, 0.977);
     border-radius: .5rem;
-    overflow: hidden;
-    background-color:white;
 }
 
-.work__img img {
-    transition: 1s;
-}
-
-.work__img img:hover {
-    transform: scale(1.1);
-}
-
-.work_details {
-    padding: 20px;
-}
-
-.stats-1 {
-    display: flex;
-    justify-content: center;
-    /* margin: auto; */
-    margin-top: 80px;
-    /* align-items: center; */
-}
-
-.stats-2 {
+/* ===== PROJECTS =====*/
+.project__container {
     row-gap: 2rem;
-    margin-top: 40px;
 }
-.stats-2 > a {
-    align-self: center;
-    justify-self: center;
+
+.stats {
+    margin-top: 50px;
+    row-gap: 2rem;
+}
+
+.stats>a {
+    margin: auto;
 }
 
 .react-activity-calendar {
-    /* max-width: 1024px; */
-    /* margin-left: var(--mb-2);
-    margin-right: var(--mb-2); */
-    /* margin: auto; */
-    margin-top: 40px;
+    width: 100%;
 }
 
-/* ===== CONTACT =====*/
 
-/* .contact__input {
-    width: 100%;
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-semi);
-    padding: 1rem;
+.project-card {
+    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
     border-radius: .5rem;
-    border: 1.5px solid var(--second-color);
-    outline: none;
-    margin-bottom: var(--mb-4);
-} */
+    overflow: hidden;
+}
 
-/* .contact__button {
-    display: block;
-    border: none;
-    outline: none;
-    font-size: var(--normal-font-size);
-    cursor: pointer;
-    margin-left: auto;
-} */
+.project-card img {
+    transition: 1s;
+}
 
-.contact_details{
-    /* width: 70%; */
-    /* padding: 100px; */
-    /* font-size: 23px; */
-    /* border: 1px solid green; */
+.project-card img:hover {
+    transform: scale(1.1);
+}
+
+.project_details {
+    padding: 20px;
+}
+
+
+/* ===== CONTACT =====*/
+.contact_details {
+    font-size: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     border-radius: 10px;
 }
 
 .contact_tag {
-    margin: 10px 0px ;
-    font-size: 30px;
-    color:black;
+    margin: 10px 0px;
 }
 
 /* ===== FOOTER =====*/
@@ -513,6 +454,7 @@ img {
     .home__img {
         width: 200px;
     }
+
 }
 
 @media screen and (min-width: 576px) {
@@ -553,21 +495,18 @@ img {
         padding-top: 50px;
     }
 
-    .work__container {
+    .project__container {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
         padding-top: 2rem;
     }
 
-    .stats-2 {
-        grid-template-columns: repeat(1, 1fr);
+    .stats {
+        grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
         padding-top: 2rem;
     }
-    .stats-2 > a {
-        align-self: center;
-        justify-self: center;
-    }
+
 
     .contact__form {
         width: 360px;
@@ -645,16 +584,19 @@ img {
         padding-top: 50px;
     }
 
-    .work__container {
+    .project__container {
         grid-template-columns: repeat(3, 1fr);
         column-gap: 2rem;
     }
-    
-    .stats-2 {
+
+    .stats {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
-        
     }
+
+
+
+
 }
 
 @media screen and (min-width: 992px) {
