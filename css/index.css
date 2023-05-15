@@ -518,7 +518,7 @@ img {
     
 }
 
-@media screen and (min-width:386px) {
+@media screen and (min-width:286px) {
     .home_main {
         padding: 4rem 0 2rem;
     }
