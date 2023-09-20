@@ -54,8 +54,8 @@ document.getElementById("resume-link-2").onclick = () => {
 
 
 //! ================= Fixture =================
-    window.addEventListener('load',()=>{
-        // window.scrollTo(0, 0);
-        window.location.href = '#home'
-    })
+    // window.addEventListener('load',()=>{
+    //     // window.scrollTo(0, 0);
+    //     window.location.href = '#home'
+    // })
 //! ================= SCROLL REVEAL JS =================
