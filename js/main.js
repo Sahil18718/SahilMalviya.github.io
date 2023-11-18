@@ -58,4 +58,4 @@ document.getElementById("resume-link-2").onclick = () => {
     //     // window.scrollTo(0, 0);
     //     window.location.href = '#home'
     // })
-//! ================= SCROLL REVEAL JS =================
+//! ================= SCROLL  =================
