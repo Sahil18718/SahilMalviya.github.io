@@ -16,7 +16,7 @@ function scrollUp() {
 }
 window.addEventListener('scroll', scrollUp)
 
-//! =================== Collapse Button ======================
+//! =================== Collapse Button ======================//
 const navigation_box = document.querySelector('#navigation_box')
 const menuToggle = document.querySelector('#menuToggle')
 const nav_links = document.querySelectorAll('.nav-link')
