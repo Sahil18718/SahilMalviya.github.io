@@ -1,6 +1,6 @@
 
 
-/*==================== CHANGE BACKGROUND HEADER ====================*/
+/*==================== CHANGE BACKGROUND HEADER ====================*///
 function scrollHeader() {
     const nav = document.getElementById('nav-menu')
     // When the scroll is greater than 200 viewport height, add the scroll-header class to the header tag
