@@ -1,4 +1,5 @@
 import React from 'react';
+import ThemeToggle from './ThemeToggle';
 
 const Header = () => (
   <header className="">
@@ -9,7 +10,9 @@ const Header = () => (
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
+        <ThemeToggle />
       </ul>
+     
     </nav>
   </header>
 );

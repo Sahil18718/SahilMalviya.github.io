@@ -22,18 +22,21 @@ import Skills from './components/Skills';
 import GitHubActivities from './components/GitHubActivities';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { ThemeProvider } from './providers/theme-provider';
 
 const Home = () => (
-  <>
-    <Header />
-    <Hero />
-    <About />
-    <Projects />
-    <Skills />
-    <GitHubActivities />
-    <Contact />
-    <Footer />
-  </>
+  <ThemeProvider>
+    <div className="bg-background text-primary">
+      <Header />
+      <Hero />
+      <About />
+      <Projects />
+      <Skills />
+      <GitHubActivities />
+      <Contact />
+      <Footer />
+    </div>
+  </ThemeProvider>
 );
 
 export default Home;
