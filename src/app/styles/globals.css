@@ -19,7 +19,7 @@ body {
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  background-color: var(--color-background-light);
+  background-color: #ff6699;
   color: var(--color-primary-light);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -32,16 +32,6 @@ body.dark {
 a {
   text-decoration: none;
   color: inherit;
-}
-
-img {
-  max-width: 100%;
-}
-
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 button {

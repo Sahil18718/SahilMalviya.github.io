@@ -1,0 +1,38 @@
+/* styles/Header.module.css */
+
+.header {
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: white;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  text-decoration: none;
+  color: #1f2937;
+  transition: color 0.3s;
+}
+
+.navItem:hover {
+  color: #f43f5e; /* Tailwind's Rose-500 */
+}
